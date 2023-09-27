@@ -1,6 +1,6 @@
 {
-    "name": "lim_app",
-    "short_name": "lim_app",
+    "name": "datamonitor01",
+    "short_name": "datamonitor01",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
