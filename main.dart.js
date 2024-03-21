@@ -87373,7 +87373,7 @@ a3H(f3,f4){var s=0,r=A.B(t.H),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a
 var $async$w8=A.C(function(f5,f6){if(f5===1)return A.y(f6,r)
 while(true)switch(s){case 0:f0=t.N
 s=2
-return A.N(A.aU(null).aD("http://172.23.10.51:15152/GETLIST/request_NV_ALL",A.ai(["name",$.cf],f0,f0),t.z),$async$w8)
+return A.N(A.aU(null).aD("http://172.23.10.51:5000/requestbalance",A.ai(["name",$.cf],f0,f0),t.z),$async$w8)
 case 2:f1=f6
 f2=A.a([],t.h)
 if(f1.c===200){q=f1.a
