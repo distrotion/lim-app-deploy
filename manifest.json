@@ -1,6 +1,6 @@
 {
-    "name": "lim_app",
-    "short_name": "lim_app",
+    "name": "tpk_login_v2",
+    "short_name": "tpk_login_v2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
