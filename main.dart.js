@@ -95665,7 +95665,7 @@ n=$.Lt
 if(B.h.u(n," "))$.Lt=n.split(" ")[0]
 n=t.N
 s=2
-return A.F(A.a8(null).J(A.ak($.ad)+"/getvalue"+$.af,A.W(["NO",$.b8r,"barcode",$.bht,"type",$.Lt],n,n),t.z),$async$x6)
+return A.F(A.a8(null).J(A.ak($.ad)+"/getvalue_"+$.af,A.W(["NO",$.b8r,"barcode",$.bht,"type",$.Lt],n,n),t.z),$async$x6)
 case 2:q=d
 if(q.c===200){p=q.a
 A.a0(p)
