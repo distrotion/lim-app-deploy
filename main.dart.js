@@ -110955,17 +110955,19 @@ else l=l==="ip"?B.cp:B.E
 h.push(new A.FE(45,new A.bfl(a,i,s),!0,k,r.b,"("+q+")",p.d,o,n.to,m,n.go,n.cy,m,n.c,n.bO,l,k,k,k,k,k,k,k,k,k))}return new A.akt(h,k)}}
 A.bfl.prototype={
 $3(a,b,c){return this.a4E(a,b,c)},
-a4E(a,b,c){var s=0,r=A.u(t.P),q=this,p,o
+a4E(a,b,c){var s=0,r=A.u(t.P),q=this,p
 var $async$$3=A.p(function(d,e){if(d===1)return A.q(e,r)
 while(true)switch(s){case 0:A.a0(a)
 A.a0(b)
 A.a0(c)
-if(B.h.v(b,"Ti")){$.aj="HESUV01"
+if(B.h.v(b,"Ti")){if($.ai==="RAYONG")$.aj="HESUV01"
+else $.aj="BP12UV01"
 p=t.z
-A.a2(null).I(A.as($.ai)+"/GETREGISTER_"+$.aj,A.K(p,p),p).ah(new A.bf6(a,c,q.a,q.b,q.c),t.P)}else{p=q.a
-if(B.h.v(b,"OCA")){$.aj="BP12OCA01"
-o=t.z
-A.a2(null).I(A.as($.ai)+"/GETREGISTER_"+$.aj,A.K(o,o),o).ah(new A.bf7(a,c,p,q.b,q.c),t.P)}else A.cw(p,A.a(["NO","USE"],t.s),100,100)}return A.r(null,r)}})
+A.a2(null).I(A.as($.ai)+"/GETREGISTER_"+$.aj,A.K(p,p),p).ah(new A.bf6(a,c,q.a,q.b,q.c),t.P)}else if(B.h.v(b,"OCA")){if($.ai==="RAYONG")$.aj="HESOCA01"
+else $.aj="BP12OCA01"
+p=t.z
+A.a2(null).I(A.as($.ai)+"/GETREGISTER_"+$.aj,A.K(p,p),p).ah(new A.bf7(a,c,q.a,q.b,q.c),t.P)}else A.cw(q.a,A.a(["NO","USE"],t.s),100,100)
+return A.r(null,r)}})
 return A.t($async$$3,r)},
 $S:898}
 A.bf6.prototype={
